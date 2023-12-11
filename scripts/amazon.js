@@ -103,3 +103,15 @@ document.querySelectorAll('.js-add-to-cart')
         });
 
     });
+
+    function updateCartQuantity
+    let cartQuantity = 0;
+
+    cart.forEach((cartItem) => {
+        cartQuantity += cartItem.quantity;
+
+    });
+
+    document.querySelector('.js-return-to-home-link-quantity')
+        .innerHTML = `${cartQuantity} items` 
+
