@@ -218,7 +218,7 @@ document.querySelectorAll('.js-delete-link')
 
                    updateCartQuantity();
                });
-           });
+            });
        }
 
       
