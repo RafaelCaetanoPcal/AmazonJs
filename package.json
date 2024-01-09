@@ -1,0 +1,10 @@
+{
+  "homepage": "http://RafaelCaetanoPcal/github.io/AmazonJs",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+  "predeploy" : "npm run build",
+  "deploy" : "gh-pages -d build"
+  }
+}
